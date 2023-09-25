@@ -1,0 +1,23 @@
+{
+  "name": "react-mf-demo",
+  "version": "1.0.0",
+  "description": "Webpack5 模块联邦实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjwangzz/react-mf-demo.git"
+  },
+  "keywords": [
+    "webpack5",
+    "mf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjwangzz/react-mf-demo/issues"
+  },
+  "homepage": "https://github.com/jjwangzz/react-mf-demo#readme"
+}
