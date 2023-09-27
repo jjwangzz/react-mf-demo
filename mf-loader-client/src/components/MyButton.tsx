@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { JJButton } from '../types';
-import { ModuleLoaderComponent } from '../loader';
+import { ModuleLoader } from '../loader';
 
 const MyButton: React.FC<JJButton> = (props) => {
   const [Component, setComponent] = useState<React.FC<JJButton>>();
 
   useEffect(() => {
     if (!Component)
-      setComponent(
-        ModuleLoaderComponent<JJButton>('jjwang_remote_app', './MyButton')
-      );
+      setComponent(ModuleLoader<JJButton>('jjwang_remote_app', './MyButton'));
   }, []);
 
   return (
