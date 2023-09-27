@@ -1,9 +1,13 @@
-import MyButton from 'jjwang_remote_app/MyButton';
+import Page1 from './src/page1';
+// import Page2 from './src/page2';
 
-export default () => {
+const App = () => {
   return (
     <div>
-      <MyButton />
+      <Page1 />
+      {/* <Page2 /> */}
     </div>
   );
 };
+
+export default App;

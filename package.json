@@ -4,7 +4,8 @@
   "description": "Webpack5模块联邦测试",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently 'cd ./remote-app && yarn start' 'cd ./host-app && yarn start'"
+    "start": "concurrently 'cd ./remote-app && yarn start' 'cd ./host-app && yarn start'",
+    "start2": "concurrently 'cd ./mf-loader-client && yarn start' 'cd ./remote-app && yarn start' 'cd ./host-app && yarn start'"
   },
   "repository": {
     "type": "git",

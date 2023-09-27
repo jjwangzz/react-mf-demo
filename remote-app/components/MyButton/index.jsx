@@ -1,7 +1,7 @@
-const MyButton = () => {
+const MyButton = (props) => {
   return (
     <div>
-      <p>这是mf引入的按钮组件</p>
+      这是mf引入的按钮组件
       <button>MyButton</button>
     </div>
   );
